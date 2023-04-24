@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flex Quality Digital System</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="~/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-1 pb-3">
+            <nav class="navbar bg-secondary navbar-dark" id="nav-bar">
+                <a href="#" class="nav-logo">
+                    <img class="company-logo" src="~/img/flex.png" style="width: 100px; height: 50px;">
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="~/img/messi1.jpg" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">Andrew Lu</h6>
+                        <span>Admin</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="#" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Summary</a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="DataInput" asp-action="Index"><i class="fa fa-laptop me-2"></i>Data Input</a>
+                        
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Dyson OBA</a>
+                            <a href="#" class="dropdown-item">DCC</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                            <a href="#" class="dropdown-item">B17</a>
+                            <a href="#" class="dropdown-item">IQC</a>
+                            <a asp-area="" asp-controller="Scores" asp-action="Index" class="dropdown-item">Dyson</a>
+                            <a asp-area="" asp-controller="Employees" asp-action="Index" class="dropdown-item">Employees</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-chart-area me-2"></i>Dashboard</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Dyson OBA</a>
+                            <a href="#" class="dropdown-item">DCC</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                            <a href="#" class="dropdown-item">B17</a>
+                            <a href="#" class="dropdown-item">IQC</a>
+                            <a href="#" class="dropdown-item">Dyson</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-th me-2"></i>Widgets</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Dyson OBA</a>
+                            <a href="#" class="dropdown-item">DCC</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                            <a href="#" class="dropdown-item">B17</a>
+                            <a href="#" class="dropdown-item">IQC</a>
+                            <a href="#" class="dropdown-item">Dyson</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-keyboard me-2"></i>Forms</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Dyson OBA</a>
+                            <a href="#" class="dropdown-item">DCC</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                            <a href="#" class="dropdown-item">B17</a>
+                            <a href="#" class="dropdown-item">IQC</a>
+                            <a href="#" class="dropdown-item">Dyson</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-table me-2"></i>Table</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Dyson OBA</a>
+                            <a href="#" class="dropdown-item">DCC</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                            <a href="#" class="dropdown-item">B17</a>
+                            <a href="#" class="dropdown-item">IQC</a>
+                            <a href="#" class="dropdown-item">Dyson</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-chart-bar me-2"></i>Charts</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Dyson OBA</a>
+                            <a href="#" class="dropdown-item">DCC</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                            <a href="#" class="dropdown-item">B17</a>
+                            <a href="#" class="dropdown-item">IQC</a>
+                            <a href="#" class="dropdown-item">Dyson</a>
+                            <a href="#" class="dropdown-item">Zhuhai Lab</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Element</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="button.html" class="dropdown-item">Button</a>
+                            <a href="chart.html" class="dropdown-item">Chart</a>
+                            <a href="element.html" class="dropdown-item">Element</a>
+                            <a href="form.html" class="dropdown-item">Form</a>
+                            <a href="table.html" class="dropdown-item">Table</a>
+                            <a href="typography.html" class="dropdown-item">Typography</a>
+                            <a href="widget.html" class="dropdown-item">Widget</a>
+                            <a href="signin.html" class="dropdown-item">Sign In</a>
+                            <a href="signup.html" class="dropdown-item">Sign Up</a>
+                            <a href="404.html" class="dropdown-item">404 Error</a>
+                            <a href="blank.html" class="dropdown-item">Blank Page</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0" id="nav-head">
+                <a href="#" class="sidebar-toggler flex-shrink-0" id="sidebar-toggler">
+                    <svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="triangles">
+                            <g id="lightGroup">
+                                <path id="light1"
+                                      opacity="0.6"
+                                      d="M53.4872 46.3509C55.7436 47.6536 55.7436 50.9105 53.4872 52.2132L13.718 75.174C11.4615 76.4767 8.64104 74.8483 8.64104 72.2428L8.64104 26.3213C8.64104 23.7158 11.4616 22.0874 13.718 23.3901L53.4872 46.3509Z" />
+                            </g>
+                            <g id="darkGroup">
+                                <path id="dark1"
+                                      opacity="0.8"
+                                      d="M74.9231 46.915C77.1795 48.2177 77.1795 51.4746 74.9231 52.7773L34.3077 76.2266C32.0513 77.5294 29.2308 75.9009 29.2308 73.2955L29.2308 26.3968C29.2308 23.7914 32.0513 22.1629 34.3077 23.4657L74.9231 46.915Z" />
+                                <path id="dark2"
+                                      opacity="0.8"
+                                      d="M54.6154 46.915C56.8718 48.2177 56.8718 51.4746 54.6154 52.7773L14 76.2266C11.7436 77.5294 8.92307 75.9009 8.92307 73.2955L8.92308 26.3968C8.92308 23.7914 11.7436 22.1629 14 23.4657L54.6154 46.915Z" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <div class="head-title">
+                    <h4>Flex Quality Digital Visualization System</h4>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <img class="rounded-circle me-lg-2" src="~/img/messi2.jpeg" alt="" style="width: 40px; height: 40px;">
+                        <span class="d-none d-lg-inline-flex">Andrew Lu</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                        <a href="#" class="dropdown-item">My Profile</a>
+                        <a href="#" class="dropdown-item">Settings</a>
+                        <a href="#" class="dropdown-item">Log Out</a>
+                    </div>
+                </div>
+
+            </nav>
+            <!-- Navbar End -->
+            <!-- Sale & Revenue Start -->
+            <div class="detail-containt">
+                <main role="main" class="pt-3 px-3">
+                    @RenderBody()
+                </main>
+                <!-- Recent Sales End -->
+                <!-- Footer Start -->
+                <div class="container-fluid pt-3 px-3" id="footer">
+                    <div class="bg-secondary rounded-top p-3" id="foot-detail">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 text-center text-sm-start">
+                                &copy; <a href="#">Flex Zhuhai Quality</a> | All Right Reserved.
+                            </div>
+                            <div class="col-12 col-sm-6 text-center text-sm-end">
+                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://therichpost.com/credit-removal". Thank you for your support. ***/-->
+                                Prepared By:
+                                <a class="email" href="mailto:Andrew.lu81@hotmail.com" style="margin-left:2px;">Andrew Lu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer End -->
+            </div>
+        </div>
+        <!-- Content End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/chart/chart.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/js/site.js"></script>
+    <script>
+        const svg = document.getElementById('triangles');
+        let flag = true;
+        let deg = 0;
+        let r = 0;
+
+        svg.onclick = (e) => {
+            const colors_dark = ['#cc1718']
+            const colors_light = ['#6c7293']
+            const rando_dark = () => colors_dark[Math.floor(Math.random() * colors_dark.length)];
+            const rando_light = () => colors_light[Math.floor(Math.random() * colors_light.length)];
+            document.documentElement.style.cssText = `
+                  --dark-color: ${rando_dark()};
+                  --light-color: ${rando_light()};
+                  `
+        };
+        var i = 0;
+        var classes = ['rotate360', 'rotate180',];
+        var classes1 = ["open", "close"];
+        $('svg').on('click', function () {
+            var m = i % 2;
+            var $this = $(this);
+            $this.addClass(classes[m]).removeClass(function (idx, cls) {
+                var classes = cls.split(' ');
+                if (classes.length > 1) {
+                    return classes[0]
+                }
+                else {
+                    return ""
+                }
+            })
+            i++;
+        })
+        // Get all elements with class "nav-item"
+        const navItems = document.querySelectorAll('.nav-link');
+
+ 
+
+        // Loop through each nav-item and add a click event listener
+        navItems.forEach(navItem => {
+        navItem.addEventListener('click', () => {
+            // Remove "active" class from all nav-items
+            navItems.forEach(item => item.classList.remove('active'));
+            // Add "active" class to the clicked nav-item
+            navItem.classList.add('active');
+        });
+        });
+
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

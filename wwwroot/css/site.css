@@ -1,0 +1,474 @@
+/********** Template CSS **********/
+:root {
+    --primary: #EB1616;
+    --secondary: #191C24;
+    --light: #6C7293;
+    --dark: #000000;
+    --dark-color: #635bff;
+    --light-color: #80e9ff;
+}
+/** h1,*.h1 *h2,*.h2{
+    color:aqua;
+}*/
+
+svg {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+#nav-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+
+
+.dropdown-menu.show {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#nav-head.head-title {
+    width: 100%;
+    text-align: center;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+    margin-left: -9.5px;
+    transition: transform 500ms ease-in;
+}
+
+.rotate360 {
+    transform: rotate(0deg);
+    margin-left: 8px;
+    transition: transform 500ms ease-in;
+}
+
+.head-title > h4 {
+    background-image: -webkit-linear-gradient(45deg, #f7f6f5,#d5d3d0,#a38337,#d5d3d0,#f7f6f5);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    background-position: left;
+    animation: bg-animation 8s infinite alternate; /* infinite播放次数为无限循环*/
+}
+/*自定义动画*/
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+}
+
+#darkGroup {
+    fill: var(--dark-color);
+}
+
+#lightGroup {
+    fill: var(--light-color);
+}
+
+#dark1,
+#light1,
+#dark2 {
+    transition: all 1s ease;
+}
+
+#dark2 {
+    transform: translateX(-100%);
+}
+
+svg:hover #light1 {
+    transform: translateX(20%);
+}
+
+svg:hover #dark1 {
+    transform: translateX(40%);
+    opacity: 0;
+}
+
+body {
+    background-image: url('./img/nasa-Q1p7bh3SHj8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+.nav-logo {
+    width: 240px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-bar {
+    padding-top: 0;
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+    #spinner.show {
+        transition: opacity .5s ease-out, visibility 0s linear 0s;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+/*** Button ***/
+.btn {
+    transition: .5s;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+
+/*** Layout ***/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100vh;
+    background: var(--secondary);
+    transition: 0.5s;
+    z-index: 999;
+    overflow-y: scroll;
+    scrollbar-3dlight-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #191c24;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    /* 宽度 */
+}
+
+/* 鼠标悬停时显示滚动条 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6c7293;
+}
+
+.content {
+    margin-left: 250px;
+    min-height: 100vh;
+    background: var(--dark);
+    transition: 0.5s;
+}
+
+.detail-containt {
+    display: flex;
+    flex-direction: column;
+}
+
+    .detail-containt > .pt-4 {
+        padding: 0.3rem 0.3rem 0 0.3rem;
+    }
+
+@media (min-width: 992px) {
+    .sidebar {
+        margin-left: 0;
+    }
+
+        .sidebar.open {
+            margin-left: -250px;
+        }
+
+    .content {
+        width: calc(100% - 250px);
+    }
+
+        .content.open {
+            width: 100%;
+            margin-left: 0;
+        }
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+
+        .sidebar.open {
+            margin-left: 0;
+        }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .head-title > h4 {
+        font-size: calc(1.1rem + 0vw);
+    }
+}
+
+
+/*** Navbar ***/
+.sidebar .navbar .navbar-nav .nav-link {
+    padding: 7px 20px;
+    color: var(--light);
+    font-weight: 500;
+    border-left: 3px solid var(--secondary);
+    border-radius: 0 30px 30px 0;
+    outline: none;
+}
+
+    .sidebar .navbar .navbar-nav .nav-link:hover,
+    .sidebar .navbar .navbar-nav .nav-link.active {
+        color: var(--primary);
+        background: var(--dark);
+        border-color: var(--primary);
+    }
+
+    .sidebar .navbar .navbar-nav .nav-link i {
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--dark);
+        border-radius: 40px;
+    }
+
+#siderbar-toggler {
+    display: none;
+}
+
+.sidebar .navbar .navbar-nav .nav-link:hover i,
+.sidebar .navbar .navbar-nav .nav-link.active i {
+    background: var(--secondary);
+}
+
+.sidebar > .navbar .dropdown-menu > .dropdown-item {
+    width: 13.125rem;
+    margin-left: 0;
+    margin: auto;
+    text-indent: 2rem;
+    font-size: 0.9rem;
+    color: #A9A9A9;
+    border-radius: 0 30px 30px 0;
+    animation: text-move 500ms ease-in;
+
+    @keyframes text-move {
+        0% {
+            text-indent: 2rem;
+        }
+
+        100% {
+            text-indent: 2.7rem;
+        }
+    }
+}
+
+    .sidebar > .navbar .dropdown-menu > .dropdown-item.active {
+        color: #FFFFFF;
+    }
+
+    .sidebar > .navbar .dropdown-menu > .dropdown-item:hover {
+        color: #FFFFFF;
+        background: var(--dark);
+        border-radius: .825rem;
+        text-indent: 2.7rem;
+    }
+
+.sidebar .navbar .dropdown-toggle::after {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .5s;
+}
+
+#nav-bar .dropdown > .bg-transparent {
+    background-color: rgba(105,113,147,0.2) !important;
+}
+
+.sidebar .navbar .dropdown-toggle[aria-expanded=true]::after {
+    transform: rotate(-180deg);
+}
+
+#footer {
+    height: 4.625rem;
+}
+
+#foot-details {
+    height: 50px;
+}
+
+.content .navbar .navbar-nav .nav-link {
+    margin-left: 25px;
+    padding: 12px 0;
+    color: var(--light);
+    outline: none;
+}
+
+    .content .navbar .navbar-nav .nav-link:hover,
+    .content .navbar .navbar-nav .nav-link.active {
+        color: var(--primary);
+    }
+
+    .content .navbar .sidebar-toggler,
+    .content .navbar .navbar-nav .nav-link i {
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--dark);
+        border-radius: 40px;
+    }
+
+.content .navbar .dropdown-item {
+    color: var(--light);
+}
+
+    .content .navbar .dropdown-item:hover,
+    .content .navbar .dropdown-item.active {
+        background: var(--dark);
+    }
+
+.content .navbar .dropdown-toggle::after {
+    margin-left: 6px;
+    vertical-align: middle;
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .5s;
+}
+
+.content .navbar .dropdown-toggle[aria-expanded=true]::after {
+    transform: rotate(-180deg);
+}
+
+@media (max-width: 575.98px) {
+    .content .navbar .navbar-nav .nav-link {
+        margin-left: 15px;
+    }
+}
+.email{
+    font-size:0.7rem!important;
+}
+
+/*** Date Picker ***/
+.bootstrap-datetimepicker-widget.bottom {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+    border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+    font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: var(--primary);
+}
+
+
+/*** Testimonial ***/
+.progress .progress-bar {
+    width: 0px;
+    transition: 2s;
+}
+
+
+/*** Testimonial ***/
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 5px solid var(--primary);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+    .testimonial-carousel .owl-dot.active {
+        background: var(--dark);
+        border-color: var(--primary);
+    }

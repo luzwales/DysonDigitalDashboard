@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DysonDigitalDashboard.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DysonDigitalDashboard.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\1.svg",
+      "PackagePath": "staticwebassets\\img\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\10.svg",
+      "PackagePath": "staticwebassets\\img\\10.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\11.svg",
+      "PackagePath": "staticwebassets\\img\\11.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\12.svg",
+      "PackagePath": "staticwebassets\\img\\12.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\13.svg",
+      "PackagePath": "staticwebassets\\img\\13.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\14.svg",
+      "PackagePath": "staticwebassets\\img\\14.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\15.svg",
+      "PackagePath": "staticwebassets\\img\\15.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\16.svg",
+      "PackagePath": "staticwebassets\\img\\16.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\17.svg",
+      "PackagePath": "staticwebassets\\img\\17.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\18.svg",
+      "PackagePath": "staticwebassets\\img\\18.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\2.svg",
+      "PackagePath": "staticwebassets\\img\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\3.svg",
+      "PackagePath": "staticwebassets\\img\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\4.svg",
+      "PackagePath": "staticwebassets\\img\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\5.svg",
+      "PackagePath": "staticwebassets\\img\\5.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\6.svg",
+      "PackagePath": "staticwebassets\\img\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\7.svg",
+      "PackagePath": "staticwebassets\\img\\7.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\8.svg",
+      "PackagePath": "staticwebassets\\img\\8.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\9.svg",
+      "PackagePath": "staticwebassets\\img\\9.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\flex.png",
+      "PackagePath": "staticwebassets\\img\\flex.png"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\flex.svg",
+      "PackagePath": "staticwebassets\\img\\flex.svg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\messi.jpg",
+      "PackagePath": "staticwebassets\\img\\messi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\messi1.jpg",
+      "PackagePath": "staticwebassets\\img\\messi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\messi2.jpeg",
+      "PackagePath": "staticwebassets\\img\\messi2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\nasa-Q1p7bh3SHj8-unsplash.jpg",
+      "PackagePath": "staticwebassets\\img\\nasa-Q1p7bh3SHj8-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\patrick-mcmanaman-LN_g3qA8ohg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\img\\patrick-mcmanaman-LN_g3qA8ohg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\img\\v2osk-l9bESp2DG8I-unsplash.jpg",
+      "PackagePath": "staticwebassets\\img\\v2osk-l9bESp2DG8I-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\dmnandlu\\source\\repos\\.net7\\DysonDigitalDashboard\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DysonDigitalDashboard.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DysonDigitalDashboard.props",
+      "PackagePath": "build\\DysonDigitalDashboard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DysonDigitalDashboard.props",
+      "PackagePath": "buildMultiTargeting\\DysonDigitalDashboard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DysonDigitalDashboard.props",
+      "PackagePath": "buildTransitive\\DysonDigitalDashboard.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

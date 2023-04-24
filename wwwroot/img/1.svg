@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="22px" viewBox="0 0 680 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 47</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#577BD3" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2C6FA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#78B5EF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#5C98E4" offset="63.7734417%"></stop>
+            <stop stop-color="#437EDA" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="预览效果图" transform="translate(-61.000000, -275.000000)">
+            <g id="编组-28" transform="translate(61.000000, 274.998333)">
+                <g id="编组-27备份" transform="translate(142.906250, 10.802083) scale(-1, 1) translate(-142.906250, -10.802083) ">
+                    <polygon id="矩形" fill="url(#linearGradient-1)" points="59.1458333 0 285.8125 0 285.8125 9.91666667 69.0625 9.91666667"></polygon>
+                    <polygon id="矩形" fill="#437EDA" points="55.6041667 0 56.3125 0 66.2291667 9.91666667 65.5208333 9.91666667"></polygon>
+                    <polygon id="矩形备份-100" fill="#437EDA" points="52.0625 0 52.7708333 0 62.6875 9.91666667 61.9791667 9.91666667"></polygon>
+                    <polyline id="路径-9" stroke="url(#linearGradient-2)" points="0 21.4270833 51.7083333 21.4270833 61.2708333 15.40625 285.8125 15.40625"></polyline>
+                </g>
+                <g id="编组-27备份-2" transform="translate(394.187500, 0.000000)">
+                    <polygon id="矩形" fill="url(#linearGradient-1)" points="59.1458333 0 285.8125 0 285.8125 9.91666667 69.0625 9.91666667"></polygon>
+                    <polygon id="矩形" fill="#437EDA" points="55.6041667 0 56.3125 0 66.2291667 9.91666667 65.5208333 9.91666667"></polygon>
+                    <polygon id="矩形备份-100" fill="#437EDA" points="52.0625 0 52.7708333 0 62.6875 9.91666667 61.9791667 9.91666667"></polygon>
+                    <polyline id="路径-9" stroke="url(#linearGradient-2)" points="0 21.4270833 51.7083333 21.4270833 61.2708333 15.40625 285.8125 15.40625"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
